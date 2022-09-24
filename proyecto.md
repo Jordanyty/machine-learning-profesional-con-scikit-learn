@@ -242,8 +242,9 @@ entonces va a aparecer en el cmd prompt (entorno) G:...
 
 Para instalar los requerimientos se utiliza
 
-python -m pip install numpy
-python -m pip install scipy
+__python -m pip install numpy__
+
+**python -m pip install scipy**
 ...etc
 
 Librerias y sus versiones con las que trabajaremos.
