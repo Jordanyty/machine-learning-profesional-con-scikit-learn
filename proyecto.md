@@ -217,7 +217,34 @@ Si deseamos ver las librerías instaladas en el ambiente:
 
 `pip freeze`
 
+En otras palabras:
+`python --version`
+
+pip get ..> buscarlo en google y guardar la pagina para instalarlo (archivo get-pip.py)
+
+`python get-pip.py`
+->Entonces se encarga de instalar el pip
+
+`python -m pip install virtualenv`
+(instala esto, ya estara instalado)
+
+`python -m virtualenv entorno`
+(se crea las carpetas para el entorno virtual)
+
+>PARA ACTIVAR EL ENTORNO si por alguna razon no se puede acceder entonces
+entrar a la carpeta del `entorno\Scripts\activate.bat`
+
+entonces va a aparecer en el cmd prompt (entorno) G:...
+
+
 ## Instalación de librerías en Python
+
+
+Para instalar los requerimientos se utiliza
+
+python -m pip install numpy
+python -m pip install scipy
+...etc
 
 Librerias y sus versiones con las que trabajaremos.
 
@@ -231,6 +258,12 @@ pandas==0.25.3
 matplotlib==3.1.2
 scikit-learn==0.22
 ```
+** Corroborar la instalación **
+Entrar al entorno de python desde el cmd python
+
+Importar la libreria import sklearn
+
+imprimir la versión que estamos trabajando print(sklearn.__version__)
 
 ## Datasets que usaremos en el curso
 
