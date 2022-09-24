@@ -258,12 +258,12 @@ pandas==0.25.3
 matplotlib==3.1.2
 scikit-learn==0.22
 ```
-** Corroborar la instalación **
+**Corroborar la instalación**
 Entrar al entorno de python desde el cmd python
 
 Importar la libreria import sklearn
 
-imprimir la versión que estamos trabajando print(sklearn.__version__)
+imprimir la versión que estamos trabajando `print(sklearn.__version__)`
 
 ## Datasets que usaremos en el curso
 
